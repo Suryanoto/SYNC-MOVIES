@@ -1,0 +1,67 @@
+.singlePage {
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePageContainer.light {
+  background-color: lightgray;
+}
+
+.singlePageTitle.light {
+  color: #151515;
+}
+
+.singlePageContainer {
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  height: calc(100vh - 80px);
+  align-items: center;
+  justify-content: center;
+}
+
+.singlePageTitle {
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+.singlePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 80vw;
+}
+
+.singlePageStart {
+  opacity: 0;
+}
+
+.singlePageWrapper:hover .singlePageStart {
+  opacity: 1;
+}
+
+.singlePageStart {
+  cursor: pointer;
+  padding: 25px;
+  background-color: gray;
+  border-radius: 50%;
+}
+
+.singlePageStart:hover {
+  background-color: black;
+}
+
+.singlePageWrapper:hover .singlePageVideo {
+  opacity: 0.5;
+}
+
+.singlePageVideo {
+  height: 70vh;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-color: gray;
+}

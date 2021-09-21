@@ -1,0 +1,33 @@
+.sidebar {
+  position: fixed;
+  background-color: rgb(136, 18, 18);
+  width: 200px;
+  z-index: 2;
+  height: 100vh;
+  top: 80px;
+  left: -200px;
+  transition: all 1s ease;
+}
+
+.sidebar.slide {
+  left: 0;
+}
+
+.sidebarContainer {
+  display: flex;
+}
+
+.sidebarList {
+  list-style: none;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.sidebarListItem {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
